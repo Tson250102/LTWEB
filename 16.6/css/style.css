@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.uudai p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box ;
+}
+#banner img{
+ width: 100%;
+ padding-bottom: 20px;
+}
+.picture-banner img{
+  width: 100%;
+}
+#dad-item{
+    background-color: #AABEC6;
+    height: fit-content;
+    color: white;
+}
+#dad-item .son-item h2{
+    text-align: center;
+    padding: 40px;
+    font-size: 42px;
+}
+.image-slider{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.image{
+    height: 500px;
+    margin-bottom: 20px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+.image-item h3{
+    font-size: 20px;
+    color:red
+}
+.smart-pants img{
+    width: 100%;
+    padding-top: 30px;
+}
+.weekly-best{
+margin: 40px;
+}
