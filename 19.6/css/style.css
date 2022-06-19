@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+ position: fixed;
+ width: 100%;
+ height: 131px;
+ top: 0;
+ background-color: white;
+ z-index: 1;
+}
+#navbarNav a{
+    display: block;
+    padding-left: 2rem;
+}
+.nav-link{
+    margin-left: 70px;
+}
+
+#donggia{
+    margin-top:150px;
+}
+.uudai p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#banner img{
+ width: 100%;
+ padding-bottom: 20px;
+}
+.picture-banner img{
+  width: 100%;
+}
+#dad-item{
+    background-color: #AABEC6;
+    height: fit-content;
+    color: white;
+    margin-top: 30px;
+}
+#dad-item .son-item h2{
+    text-align: center;
+    padding: 40px;
+    font-size: 42px;
+}
+.image{
+    height: 500px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.image img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.image-item h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.image-item p{
+    font-size: 14px;
+    
+}
+.slick-initialized .slick-slide{
+    margin:0px 10px; 
+}
+
+.smart-pants img{
+    width: 100%;
+    padding-top: 30px;
+}
+.weekly-best{
+margin: 40px;
+text-align: center;
+}
+.weekly-best h2{
+    padding: 50px;
+    color: #808080;
+}
+
+/* .abc{
+    padding-top: 50px;
+    background-color: silver
+} */
+footer{
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: silver;
+}
