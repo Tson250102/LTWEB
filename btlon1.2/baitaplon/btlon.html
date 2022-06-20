@@ -52,8 +52,7 @@
               <div class="col-md-8">
 
                 <div class="search">
-                  <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm...">
-                  <button class="btn btn-light">Tìm</button>
+                  <input id="tk" type="text" onkeyup="myFunction()" class="form-control" placeholder="Tìm kiếm sản phẩm...">
                 </div>
                 
               </div>
@@ -84,22 +83,12 @@
     <Div class="div_right">
         <div class="container" style="width:100%">
             <div class="row">
+              <tbody id="myTable">
               <div class="col-xs-6 col-md-4">
                 <div class="card" style="width: 18rem;">
                   <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
+                    <h5 class="card-title">A</h5>
                     <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
                     <a href="#" class="btn btn-primary">40.000 đồng</a>
                     <a href="#" class="btn btn-danger">Chi tiết</a>
@@ -110,7 +99,7 @@
                 <div class="card" style="width: 18rem;">
                   <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
+                    <h5 class="card-title">B</h5>
                     <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
                     <a href="#" class="btn btn-primary">40.000 đồng</a>
                     <a href="#" class="btn btn-danger">Chi tiết</a>
@@ -121,7 +110,7 @@
                 <div class="card" style="width: 18rem;">
                   <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
+                    <h5 class="card-title">C</h5>
                     <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
                     <a href="#" class="btn btn-primary">40.000 đồng</a>
                     <a href="#" class="btn btn-danger">Chi tiết</a>
@@ -132,131 +121,22 @@
                 <div class="card" style="width: 18rem;">
                   <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
+                    <h5 class="card-title">D</h5>
                     <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
                     <a href="#" class="btn btn-primary">40.000 đồng</a>
                     <a href="#" class="btn btn-danger">Chi tiết</a>
                   </div>
                 </div>
               </div>
-              <div class=" col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class=" col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class=" col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class=" col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40.000 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
-              <div class=" col-xs-6 col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cf.shopee.vn/file/5fa87bcdc90ced6bd4d827656e0c82b6_tn" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Lá sấy khô 200gram</h5>
-                    <p class="card-text">Lá phan tả diệp sấy khô 200gram loại thượng hạng </p>
-                    <a href="#" class="btn btn-primary">40 đồng</a>
-                    <a href="#" class="btn btn-danger">Chi tiết</a>
-                  </div>
-                </div>
-              </div>
+            </tbody>
             </div>
           </div>
     </Div>
 </div>
-<div>
-  <p>abc</p>
-</div>
-    
+
+
+
+<Script src="btlon.js"></Script>
   <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
