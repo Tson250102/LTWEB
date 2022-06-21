@@ -15,3 +15,22 @@ function myFunction(){
         }
     }
 }
+
+function thapDenCao(){
+    var arr = [];
+    var i , vitri , gia;
+    var anh = document.getElementById("div_right").getElementsByClassName("ten");
+    for(i=0;i<anh.length;i++){
+        gia = anh[i].getElementsByTagName("a")[0];
+        vitri = gia.innerHTML.indexOf(" ");
+        gia = gia.innerHTML.substring(0,vitri);
+        gia = parseFloat(gia);
+        arr.push(gia);
+    }
+
+    arr.sort(function(a,b){
+        return a-b;
+    });
+
+
+}
